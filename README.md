@@ -12,6 +12,7 @@ To get a local copy of the code, clone it using git:
 ```
 git clone https://github.com/Daniel-Uchay/students-behavioral-report-manager.git
 cd students-behavioral-report-manager
+
 ```
 
 Install dependencies:

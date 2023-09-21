@@ -6,7 +6,7 @@ const Table = ({ students, handleEdit, handleDelete, handleSend }) => {
       <table className="striped-table">
         <thead>
           <tr>
-            <th>Id</th>
+            <th>#</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
@@ -21,8 +21,8 @@ const Table = ({ students, handleEdit, handleDelete, handleSend }) => {
         <tbody>
           {students ? (
             students.map((student, i) => (
-              <tr key={student.id}>
-                <td>{student.id}</td>
+              <tr key={i}>
+                <td>{i+1}</td>
                 <td>{student.firstName}</td>
                 <td>{student.lastName}</td>
                 <td>{student.email}</td>
