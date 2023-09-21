@@ -1,6 +1,6 @@
 {
-  "short_name": "CRUD App",
-  "name": "CRUD App",
+  "short_name": "Student Report",
+  "name": "Student behavioral Report Management",
   "icons": [
     {
       "src": "android-chrome-192x192.png",

@@ -1,12 +1,9 @@
 {
-  "name": "crud-app",
+  "name": "students-behavioral-report-manager",
   "version": "3.3.0",
   "private": true,
-  "homepage": "https://safdarjamal.github.io/crud-app/",
-  "author": {
-    "name": "Safdar Jamal",
-    "url": "https://safdarjamal.github.io"
-  },
+  "homepage": "https://github.com/Daniel-Uchay/students-behavioral-report-manager",
+
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.4",
