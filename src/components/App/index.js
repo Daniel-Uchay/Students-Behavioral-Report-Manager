@@ -2,11 +2,11 @@ import React, { useState, useEffect } from "react";
 
 import Login from "../Login";
 import Dashboard from "../Dashboard";
-import Register from "../Register";
+// import Register from "../Register";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(null);
-  const [isResgistered, setIsResgistered] = useState(null);
+  // const [isResgistered, setIsResgistered] = useState(null);
 
   useEffect(() => {
     setIsAuthenticated(true);

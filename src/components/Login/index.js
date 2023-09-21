@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import Register from "../Register";
 
 import Swal from "sweetalert2";
 
@@ -47,6 +49,10 @@ const Login = ({ setIsAuthenticated }) => {
     }
   };
 
+  const hideLogin = () => {
+
+  }
+
   return (
     <div className="small-container">
       <form onSubmit={handleLogin}>
@@ -56,7 +62,7 @@ const Login = ({ setIsAuthenticated }) => {
           id="email"
           type="email"
           name="email"
-          placeholder="admin@example.com"
+          placeholder="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
@@ -65,11 +71,15 @@ const Login = ({ setIsAuthenticated }) => {
           id="password"
           type="password"
           name="password"
-          placeholder="qwerty"
+          placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
         <input style={{ marginTop: "12px" }} type="submit" value="Login" />
+
+        <div>
+          <a onClick={hideLogin} href="">Not have an account? Sign Up</a>
+        </div>
       </form>
     </div>
   );

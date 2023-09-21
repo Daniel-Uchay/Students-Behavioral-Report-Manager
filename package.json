@@ -2,8 +2,7 @@
   "name": "students-behavioral-report-manager",
   "version": "3.3.0",
   "private": true,
-  "homepage": "https://github.com/Daniel-Uchay/students-behavioral-report-manager",
-
+  "homepage": "Daniel-Uchay/students-behavioral-report-manager",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.16.4",
@@ -13,6 +12,7 @@
     "firebase": "^9.21.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "^4.0.3",
     "sweetalert2": "^11.4.18"
   },
